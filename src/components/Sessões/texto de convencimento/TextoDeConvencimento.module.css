@@ -1,0 +1,42 @@
+.texto_container{
+    width: 97.6%;
+    padding: 1em;
+    box-shadow: 5px 5px 5px #00000073;
+    background-image: url('../../../imgs/cidadeCanadá.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.texto_container::after{
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: #c60d20c6;
+}
+
+.texto_container h1{
+    width: 50%;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 0.5em;
+    color:#1C294D;
+    position: relative;
+    z-index: 1;
+}
+
+.texto_container p{
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.7em;
+    color: #FFF;
+    font-weight: 600;
+    text-align: justify;
+    position: relative;
+    z-index: 1;
+}

@@ -3,6 +3,8 @@
 :root{
   --brancoPadraoB-background-color: #fff;
   --brancoPadraoC-color: #fff;
+  --cinzaClaroB-background-color: #ededed;
+  --cinzaClaroC-color: #ededed;
   --vermelhoCanadaB-background-color: #eb0110;
   --vermelhoCanadaC-color: #eb0110;
   --vermelhoEscurob-background-color: #c60d21;
@@ -16,7 +18,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  font-family: 'Roboto', sans-serif;
 }
 
 button{
