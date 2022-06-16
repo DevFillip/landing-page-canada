@@ -1,0 +1,19 @@
+.home_container{
+    width: 100%;
+
+}
+
+.home_container h1{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.home_container p{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    text-align: justify;
+}
+

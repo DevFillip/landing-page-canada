@@ -1,0 +1,25 @@
+.venda{
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.venda img{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.venda button{
+    margin: 0 auto;
+    border-radius: 15px;
+    border: none;
+    background-color: #39A336;
+    color: #fff;
+    padding: 0.4em 9em;
+    margin-top: 30px;
+    font-size: 18px;
+    box-shadow: 0px 0px 4px 1.8px #0000004f;
+}
+
