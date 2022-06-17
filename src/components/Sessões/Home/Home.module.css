@@ -17,3 +17,34 @@
     text-align: justify;
 }
 
+.card_container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.card_vantagens{
+    text-align: center;
+    background-color: #3a5191;
+    margin: 0 2em;
+    width: 160px;
+    height: 140px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.478);
+}   
+
+.card_vantagens svg{
+    margin-top: 25px;  
+    font-size: 35px;
+    color: #1a2c6c;    
+}
+
+.card_vantagens p{
+    padding: 0.3em;
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}

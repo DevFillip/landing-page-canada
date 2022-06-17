@@ -1,0 +1,8 @@
+.investimento_container{
+    display: flex;
+}
+
+    .texto_container{
+    width: 46%;
+    padding: 2em;
+}

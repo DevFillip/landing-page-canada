@@ -4,6 +4,7 @@ import Footer from "./components/Layout/Footer/Footer";
 import Conversao from "./components/Sessões/Conversão/Conversao";
 import TextoDeConvencimento from "./components/Sessões/texto de convencimento/TextoDeConvencimento";
 import Home from "./components/Sessões/Home/Home";
+import Investimento from "./components/Sessões/Investimento/Investimento";
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
             <Route path="/" element={<NavBar/>}/>
           </Routes>
           <Home />
-
           <TextoDeConvencimento />
+          <Investimento />
           <Conversao />
           <Footer/>
       </Router>
