@@ -1,0 +1,27 @@
+.vantagens_container h1{
+    margin-left: 250px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color:#1a2c6c;
+    font-weight: 800;
+    font-size: 37px;
+}   
+
+.vantagens_container div svg{
+    margin-right: 10px;
+    color: brown;
+    font-size: 21px;
+}
+
+.vantagens{
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+    margin-top: -25px;
+    padding: 0px;
+}
+
+.vantagens p{
+    font-size: 16px;
+    color: #444444;
+}

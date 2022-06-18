@@ -1,8 +1,31 @@
 .investimento_container{
     display: flex;
+    margin-top: 80px;
 }
 
-    .texto_container{
-    width: 46%;
+.texto_container{
     padding: 2em;
+    background-color: var(--vermelhoEscurob-background-color);
+    color: #fff;
+    text-align: center;
+    
+}
+
+.texto_container h1{
+    width: 60%;
+    font-size: 35px;
+    font-weight: 800;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    border-bottom: 3px solid white;
+    padding-bottom: 30px;
+}
+
+.texto_container p{
+    width: 58%;
+    text-align: justify;
+    margin: 15px auto;
+    font-size: 14px;
+
 }
