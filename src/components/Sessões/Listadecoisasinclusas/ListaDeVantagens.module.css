@@ -1,6 +1,10 @@
+.container{
+    display: flex;
+}
+
 .vantagens_container h1{
-    margin-left: 250px;
-    margin-top: 60px;
+    margin-left: 220px;
+    margin-top: 80px;
     margin-bottom: 30px;
     color:#1a2c6c;
     font-weight: 800;
@@ -14,7 +18,7 @@
 }
 
 .vantagens{
-    margin-left: 250px;
+    margin-left: 220px;
     display: flex;
     align-items: center;
     margin-top: -25px;
@@ -24,4 +28,26 @@
 .vantagens p{
     font-size: 16px;
     color: #444444;
+}
+
+.formados_img img{
+    width: 450px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.college_prep{
+    width: 500px;
+    background-color: var(--vermelhoEscurob-background-color);
+    position: relative;
+    top: -100px;
+    left: 70px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.college_prep h2{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 800;
 }

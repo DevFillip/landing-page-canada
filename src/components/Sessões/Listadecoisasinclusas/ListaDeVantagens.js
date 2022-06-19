@@ -4,7 +4,7 @@ import formados from '../../../imgs/formados.png'
 
 function ListaDeVantagens(){
     return (
-        <div className={styles.}>
+        <div className={styles.container}>
             <div className={styles.vantagens_container}>
                 <h1>O que está Incluso?</h1>
 
@@ -37,8 +37,11 @@ function ListaDeVantagens(){
                 </div>  
             </div>
 
-            <div clasName={styles.formados}>
+            <div className={styles.formados_img}>
                 <img src={formados} alt="imagem de pessoas formadas"/>
+                <div className={styles.college_prep}>
+                    <h2>College Prep</h2>
+                </div>
             </div>
         </div>
     )
