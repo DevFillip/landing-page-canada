@@ -6,6 +6,7 @@ import TextoDeConvencimento from "./components/Sessões/texto de convencimento/T
 import Home from "./components/Sessões/Home/Home";
 import Investimento from "./components/Sessões/Investimento/Investimento";
 import ListaDeVantagens from "./components/Sessões/Listadecoisasinclusas/ListaDeVantagens"
+import Comparacao from "./components/Sessões/Comparação/Comparacao";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <ListaDeVantagens />
           <Investimento />
           <Conversao />
+          <Comparacao />
           <Footer/>
       </Router>
     </div>

@@ -1,4 +1,23 @@
-.teste{
+.venda_container{
+    justify-content: center;
+}
+
+.venda_container h1{
+    font-size: 40px;
+    color: #1a2d75;
+    font-weight: 800;
+    width: 57%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.venda_container span{
+    height: 2px;
+    width: 40%;
+    background-color: brown;
+}
+
+.depoimentos{
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
