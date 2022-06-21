@@ -14,16 +14,20 @@
 
 .depoimentos_container p{
     text-align: justify;
-    color: var(--pretoTotalC-color) ;
+    color: #5a5a5a;
+    font-size: 14px;
+    margin-top: 0px;
 }
 
 .depoimentos_container p:nth-of-type(1){
-    margin-top: -15px;
+    margin-top: -20px;
     font-size: 14px;
+    color: #5a5a5a;
+    font-style: italic;
 }
 
 .img_depoimento{
-    max-width: 140px;
+    max-width: 130px;
     border-radius: 50%;
     position: relative;
     top: -45px;

@@ -1,0 +1,27 @@
+.faq_container{
+    background-color: #1f2a4a;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.faq_container h2{
+    font-weight: 800;
+    text-align: center;
+}
+
+.faq_perguntas{
+    padding-bottom: 100px;
+}
+
+.faq_pergunta{
+    background-color: #e0e0e0;
+    width: 40%;
+    margin: 0 auto;
+    padding: .7em 1em;
+    margin-top: 5px;
+}
+
+.faq_pergunta span{
+    font-weight: 600;
+    color: #17359f;
+}

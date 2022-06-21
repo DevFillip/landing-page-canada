@@ -10,7 +10,7 @@ function Conversao(){
         <>
             <div className={styles.venda_container}>
                 <h1>Quanto custa investir no seu futuro?</h1>
-                <span></span>
+                <div className={styles.borda_em_baixo}></div>
                 <p>Conhecer os principais pontos turísticos do Canadá com muitas atividades culturais e educacionais, conhecer alunos, professores e funcionários Canadenses, entender o sistema educacional do país, intensivo diário da língua inglesa com muito lazer e certificado de conclusão.</p>
                 <Venda />
                 <p>Ficou com alguma dúvida?</p>

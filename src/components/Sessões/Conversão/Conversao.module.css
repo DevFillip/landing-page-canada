@@ -4,22 +4,40 @@
 
 .venda_container h1{
     font-size: 40px;
+    margin-top: 80px;
     color: #1a2d75;
     font-weight: 800;
-    width: 57%;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 
-.venda_container span{
-    height: 2px;
-    width: 40%;
+.borda_em_baixo{
+    height: 3px;
+    width: 35%;
     background-color: brown;
+    margin: 0 auto;    
+    margin-top: -12px;
+}
+
+.venda_container p{
+    font-size: 14px;
+    color: #5a5a5a;
+    width: 65%;
+    margin:0 auto;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.venda_container p:nth-of-type(2){
+    text-align: center;
+    margin-top: 10px;
 }
 
 .depoimentos{
-    justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: space-evenly;    
+    margin-bottom: 100px;
 }
+
+
