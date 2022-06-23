@@ -8,7 +8,7 @@ import Investimento from "./components/Sessões/Investimento/Investimento";
 import ListaDeVantagens from "./components/Sessões/Listadecoisasinclusas/ListaDeVantagens"
 import Comparacao from "./components/Sessões/Comparação/Comparacao";
 import FormContato from "./components/Sessões/Entre em contato/FormContato";
-import Faq from "./components/Sessões/FAQ/Faq";
+import FaqPerguntasERespostas from "./components/Sessões/FAQ/FaqPerguntasERespostas/FaqPerguntasERespostas";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
           <Investimento />
           <Conversao />
           <Comparacao />
-          <Faq />
+          <FaqPerguntasERespostas/>
           <FormContato />
           <Footer/>
       </Router>

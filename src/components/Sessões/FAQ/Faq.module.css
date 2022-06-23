@@ -1,7 +1,7 @@
 .faq_container{
     background-color: #1f2a4a;
     color: #fff;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 .faq_container h2{
@@ -18,10 +18,18 @@
     width: 40%;
     margin: 0 auto;
     padding: .7em 1em;
-    margin-top: 5px;
+    margin-top: 4px;
+    cursor: pointer;
+
 }
 
 .faq_pergunta span{
     font-weight: 600;
-    color: #17359f;
+    color: #1e3178;
+
+}
+
+.faq_pergunta svg{
+    color: brown;
+    float: right;
 }
