@@ -4,17 +4,22 @@
 }
 
 .home_container h1{
-    width: 50%;
+    width: 60%;
     text-align: center;
     margin: 0 auto;
     margin-top: 50px;
+    color: #1a2c6c;
+    font-size: 37px;
+    font-weight: 800;
 }
 
-.home_container p{
-    width: 80%;
+.p{
+    width: 55%;
     text-align: center;
     margin: 0 auto;
-    text-align: justify;
+    color: #7a7a7a;
+    margin-top: 10px;
+    font-size: 15px;
 }
 
 .card_container{
@@ -31,7 +36,7 @@
     height: 140px;
     margin-top: 50px;
     border-radius: 20px;
-    box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.478);
+    box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.317);
 }   
 
 .card_vantagens svg{
@@ -41,10 +46,16 @@
 }
 
 .card_vantagens p{
+    width: 60%;
     padding: 0.3em;
     font-size: 18px;
     font-weight: 900;
     color: #fff;
     text-align: center;
-    margin-top: 10px;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+
+.card_vantagens span{
+    margin-left: -6px;
 }

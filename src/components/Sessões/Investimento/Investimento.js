@@ -6,6 +6,7 @@ function Investimento(){
         <div className={styles.investimento_container}>
             <div className={styles.texto_container}>
                 <h1>Um investimento com risco zero!</h1>
+                <div className={styles.borda_embaixo}></div>
             <p>Agora vamos pensar juntos, fazer um intercâmbio por conta própria, ou mesmo que organizado por uma agência, não sai barato. Só a estadia em um hotel não sai por menos de 1500 dólares para duas semanas. Além dos custos com alimentação (cerca de 450 dólares para esse prazo), transporte, seguro e de um curso de inglês (que deve sair por mais ou menos 1000 dólares). Sem contar com os passeios para outras cidades, jogos, festivais, etc.
             </p>
             <p>

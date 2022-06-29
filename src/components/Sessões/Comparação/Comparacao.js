@@ -7,6 +7,7 @@ function Comparacao(){
     
         <div className={styles.container_comparacao}>
             <h1>College Prep x Outros intercâmbios</h1>
+            <div className={styles.borda_em_baixo}></div>
             <div className={styles.card_container}>
                 <div className={styles.card_comparacao}>
                     <h3>College Prep</h3>

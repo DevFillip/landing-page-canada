@@ -36,7 +36,11 @@
     background-color: rgb(220, 220, 220);
     color: black;
     border: 0;
+}
 
+.contato input::placeholder,
+.contato textarea::placeholder{
+    padding-left: 6px;
 }
 
 .contato label{
