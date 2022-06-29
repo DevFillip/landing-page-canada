@@ -8,9 +8,15 @@ function FormContato(){
 
             <div className={styles.contato}>
                 <form>
-                    <input type="text" placeholder='Seu email...'></input>
-                    <textarea placeholder='Sua mensagem...'></textarea>
-                    <button>Enviar</button>
+                    <label for="email">Email:</label>
+                    <br></br>
+                    <input type="text" placeholder='Seu email...' id='email'></input>
+                    <br></br>
+                    <label for="mensagem">Sua mensagem:</label>
+                    <br></br>
+                    <textarea placeholder='Sua mensagem...' id='mensagem'></textarea>
+                    <br></br>
+                    <button>Enviar mensagem</button>
                 </form>
             </div>
         </div>
