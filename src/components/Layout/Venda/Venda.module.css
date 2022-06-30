@@ -28,3 +28,19 @@
     background-color: #ba2c2b;
 
 }
+
+
+@media (max-width: 800px){
+    
+    .venda img{
+        width: 250px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .venda button{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+

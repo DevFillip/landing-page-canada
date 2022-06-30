@@ -28,7 +28,7 @@ function Home(){
                 </div>
                 <div className={styles.card_vantagens}>
                     <BiCertification />
-                    <p>Certificado <span>Participação</span></p>
+                    <p>Certificado <br></br><span> Participação</span></p>
                 </div>
                 <div className={styles.card_vantagens}>
                     <AiFillMessage />

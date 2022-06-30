@@ -4,7 +4,7 @@
 }
 
 .home_container h1{
-    width: 60%;
+    width: 70%;
     text-align: center;
     margin: 0 auto;
     margin-top: 50px;
@@ -31,8 +31,8 @@
 .card_vantagens{
     text-align: center;
     background-color: #3a5191;
-    margin: 0 2em;
-    width: 160px;
+    margin: 0 1.3%;
+    width: 150px;
     height: 140px;
     margin-top: 50px;
     border-radius: 20px;
@@ -40,15 +40,15 @@
 }   
 
 .card_vantagens svg{
-    margin-top: 25px;  
-    font-size: 35px;
+    margin-top: 15px;  
+    font-size: 46px;
     color: #1a2c6c;    
 }
 
 .card_vantagens p{
     width: 60%;
     padding: 0.3em;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 900;
     color: #fff;
     text-align: center;
@@ -58,4 +58,178 @@
 
 .card_vantagens span{
     margin-left: -6px;
+}
+
+@media (max-width: 1200px){
+    .home_container h1{
+        width: 92%;
+        font-size: 36px;
+    }
+
+    .p{
+        width: 65%;
+        font-size: 15px;
+    }
+
+    .card_vantagens{
+        width: 150px;
+        height: 130px;
+    }   
+    
+    .card_vantagens svg{
+        margin-top: 15px;  
+        font-size: 42px;
+    }
+    
+    .card_vantagens p{
+        width: 60%;
+        padding: 0.3em;
+        font-size: 16px;
+    }
+    
+    .card_vantagens span{
+        margin-left: -6px;
+    }
+    
+}
+
+@media (max-width: 1000px){
+    .home_container h1{
+        font-size: 33.5px;
+    }
+
+    .p{
+        width: 70%;
+        font-size: 14px;
+    }
+
+    .card_vantagens p{
+        width: 60%;
+        padding: 0.3em;
+        font-size: 14px;
+    }
+
+    .card_vantagens{
+        width: 130px;
+        height: 120px;
+    }   
+    
+    .card_vantagens svg{
+        margin-top: 15px;  
+        font-size: 38px;
+    }
+    
+    .card_vantagens p{
+        width: 60%;
+        padding: 0.3em;
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width: 800px){
+    .home_container h1{
+        font-size: 32px;
+    }
+
+    .p{
+        width: 70%;
+        font-size: 13px;
+    }
+
+    .card_vantagens{
+        width: 120px;
+        height: 110px;
+    }   
+    
+    .card_vantagens svg{
+        margin-top: 15px;  
+        font-size: 34px;
+    }
+    
+    .card_vantagens p{
+        width: 80%;
+        padding: 0.3 0.3;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 730px){
+    .home_container h1{
+        font-size: 30px;
+    }
+
+    .card_container {
+        flex-wrap: wrap;
+    }
+
+    .card_vantagens:nth-of-type(1),
+    .card_vantagens:nth-of-type(2),
+    .card_vantagens:nth-of-type(3),
+    .card_vantagens:nth-of-type(4){
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    .card_vantagens:nth-of-type(5){
+        width: 83%;
+        margin-top: 20px;
+    }
+
+    .card_container div:nth-of-type(4) p{
+        margin-top: -4px;
+    }
+    
+    .card_vantagens svg{
+        margin-top: 15px;  
+        font-size: 40px;
+    }
+    
+    .card_vantagens p{
+        width: 80%;
+        padding: 0.3 0.3;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 600px){
+    .home_container h1{
+        font-size: 28px;
+    }
+
+    .p{
+        width: 80%;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 540px){
+    .card_vantagens svg{
+        margin-top: 15px;  
+        font-size: 39px;
+    }
+
+    .card_vantagens p{
+        width: 80%;
+        padding: 0.3 0.3;
+        font-size: 15px;
+        margin-top: 8px;
+    }
+
+    .card_container div:nth-of-type(4) p{
+        margin-top: 0px;
+    }
+
+    .card_vantagens:nth-of-type(1),
+    .card_vantagens:nth-of-type(2),
+    .card_vantagens:nth-of-type(3),
+    .card_vantagens:nth-of-type(4){
+        width: 38.5%;
+        margin-top: 20px;
+    }
+
+    .card_vantagens:nth-of-type(5){
+        width: 79%;
+        margin-top: 20px;
+    }
 }

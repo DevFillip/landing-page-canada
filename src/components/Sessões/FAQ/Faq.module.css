@@ -61,8 +61,40 @@
     color: #616161;
     margin-top: 0px;
 }
+
 .content.show{
     height: auto;
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(0,1,0,1);
 }
+
+@media (max-width: 600px){
+    .wrapper h1{
+        font-size: 26px;
+    }
+
+    .accordion{
+        width: 400px;
+    }
+
+    .item{
+        background-color: #ccc;
+        margin-bottom: 5px;
+        padding: 3px 11px;
+    }
+
+    .title h2{
+        font-size: 15px;
+    }
+
+    .title svg{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 540px){
+    .accordion{
+        width: 380px;
+    }
+}
+

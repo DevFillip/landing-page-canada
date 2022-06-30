@@ -36,3 +36,79 @@
     font-size: 14px;
     padding-bottom: 20px;
 }
+
+
+
+@media (max-width:1224px){
+    .texto_container h1{
+        width: 70%;
+       
+    }
+
+    .texto_container p{
+        width: 70%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1000px){
+
+    .texto_container h1{
+        width: 75%;
+        font-size: 30px;
+    }
+
+    .texto_container p{
+        width: 80%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px){
+ 
+    .texto_container h1{
+        width: 77%;
+        font-size: 28px;
+    }
+
+    .texto_container p{
+        width: 90%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 700px){
+    .texto_container h1{
+        width: 90%;
+        font-size: 27px;
+    }
+
+    .texto_container p{
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px){
+    .texto_container h1{
+        width: 90%;
+        font-size: 24px;
+    }
+
+    .texto_container p{
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 540px){
+    .texto_container h1{
+        width: 90%;
+        font-size: 22px;
+    }
+
+    .texto_container p{
+        width: 100%;
+        font-size: 13px;
+    }
+}

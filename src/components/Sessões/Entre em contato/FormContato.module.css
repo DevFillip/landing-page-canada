@@ -74,3 +74,59 @@
     border-radius: 4px;
     margin-bottom: 35px;
 }
+
+
+@media (max-width: 1200px){
+    
+}
+
+@media (max-width: 1000px){
+   
+}
+
+@media (max-width: 800px){
+    
+}
+
+@media (max-width: 700px){
+  
+    
+}
+
+@media (max-width: 600px){
+   
+}
+
+@media (max-width: 540px){
+    .contato_container h1{
+        font-size: 31px;
+    }
+
+    .contato_container p{
+        font-size: 14px;
+    }
+    
+
+    .contato input{
+        width: 380px;
+        height: 30px;
+        font-size: 16px;
+    }
+    
+    .contato label{
+        font-size: 15px;
+    }
+    
+    .contato textarea{
+        width: 380px;
+       
+    }
+    
+    .contato button{
+        width:99.7%;
+        padding: 0.5em 1.2em;
+        font-size: 15px;
+        
+        
+    }
+}

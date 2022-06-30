@@ -5,6 +5,8 @@
     width: 450px;   
     padding: 1em;
     margin-top: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .depoimentos_container h2{
@@ -40,3 +42,66 @@
     position: relative;
     left: -10px;
 }
+
+@media (max-width: 1200px){
+    .depoimentos_container {
+        width: 400px;
+    }
+    .img_depoimento{
+        left:135px;
+    
+    }
+}
+
+@media (max-width: 1000px){
+    .depoimentos_container {
+        width: 320px;
+    } 
+    
+    .depoimentos_container p{
+        font-size: 13px;
+    }
+
+    .img_depoimento{
+        left:105px;
+        width:125px ;
+    }
+}
+
+@media (max-width: 800px){
+    .depoimentos_container{
+        width: 450px;
+        
+    }
+
+    .depoimentos_container p{
+        font-size: 14px;
+    }
+    
+    .img_depoimento{
+        left:155px;
+        width:125px ;
+    }
+    
+}
+
+@media (max-width: 700px){
+    .depoimentos_container{
+        width: 380px;
+    }
+
+    .img_depoimento{
+        max-width: 130px;
+        left: 130px;
+    }
+    
+}
+
+@media (max-width: 600px){
+   
+}
+
+@media (max-width: 540px){
+    
+}
+

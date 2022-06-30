@@ -23,7 +23,7 @@
 .venda_container p{
     font-size: 14px;
     color: #5a5a5a;
-    width: 65%;
+    width: 75%;
     margin:0 auto;
     margin-top: 20px;
     text-align: justify;
@@ -41,4 +41,47 @@
     margin-bottom: 100px;
 }
 
+@media (max-width: 1200px){
+    .venda_container h1{
+        font-size: 38px;
+    }
+
+    .venda_container p{
+        width: 80%;
+    }
+}
+
+@media (max-width: 1000px){
+    .venda_container h1{
+        font-size: 31px;
+        padding: 0 30px
+    }
+
+    .venda_container p{
+        width: 80%;
+    }
+}
+
+@media (max-width: 800px){
+    .venda_container p{
+        width: 90%;
+    }
+   
+    
+}
+
+@media (max-width: 700px){
+    .venda_container p{
+        width: 92%;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 600px){
+   
+}
+
+@media (max-width: 540px){
+    
+}
 
