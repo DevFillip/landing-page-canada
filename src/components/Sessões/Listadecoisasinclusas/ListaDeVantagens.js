@@ -6,7 +6,7 @@ function ListaDeVantagens(){
     return (
         <div className={styles.container}>
             <div className={styles.vantagens_container}>
-                <h1>O que está Incluso?</h1>
+                <h1>UMA EXPERIÊNCIA INESQUECÍVEL </h1>
 
                 <div className={styles.vantagens}>
                     <CgEditBlackPoint /><p>Hospedagem na William Academy</p>
@@ -21,9 +21,6 @@ function ListaDeVantagens(){
                     <CgEditBlackPoint /><p>Atividades dentro e fora da Instituição</p>
                 </div>
                 <div className={styles.vantagens}>
-                    <CgEditBlackPoint /><p>Seguro Saúde</p>
-                </div>
-                <div className={styles.vantagens}>
                     <CgEditBlackPoint /><p>Translado</p>
                 </div>
                 <div className={styles.vantagens}>
@@ -32,9 +29,6 @@ function ListaDeVantagens(){
                 <div className={styles.vantagens}>
                     <CgEditBlackPoint /><p>Certificado de Participação</p>
                 </div>
-                <div className={styles.vantagens}>
-                    <CgEditBlackPoint /><p>Moletom College Prep</p>
-                </div>  
             </div>
 
             <div className={styles.formados_img}>

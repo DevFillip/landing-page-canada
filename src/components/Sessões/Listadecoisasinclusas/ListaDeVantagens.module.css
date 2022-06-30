@@ -2,23 +2,27 @@
     display: flex;
 }
 
+.vantagens_container{
+    width: 50%;
+}
+
 .vantagens_container h1{
-    margin-left: 220px;
+    margin-left: 15%;
     margin-top: 80px;
     margin-bottom: 30px;
     color:#1a2c6c;
-    font-weight: 800;
+    font-weight:900;
     font-size: 37px;
 }   
 
-.vantagens_container div svg{
+.vantagens_container svg{
     margin-right: 10px;
     color: brown;
     font-size: 21px;
 }
 
 .vantagens{
-    margin-left: 220px;
+    margin-left: 15%;
     display: flex;
     align-items: center;
     margin-top: -25px;
@@ -31,13 +35,13 @@
 }
 
 .formados_img img{
-    width: 450px;
-    margin-top: 80px;
+    width: 380px;
+    margin-top: 110px;
     margin-left: 100px;
 }
 
 .college_prep{
-    width: 500px;
+    width: 440px;
     background-color: var(--vermelhoEscurob-background-color);
     position: relative;
     top: -100px;
@@ -48,6 +52,165 @@
 
 .college_prep h2{
     color: #fff;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 800;
+}
+
+@media (max-width: 1200px){
+
+    .vantagens_container{
+        width: 50%;
+    }
+
+    .formados_img img{
+        width: 350px;
+        margin-top: 120px;
+        margin-left: 80px;
+    }   
+
+    .college_prep{
+        width: 400px;
+        background-color: var(--vermelhoEscurob-background-color);
+        position: relative;
+        top: -100px;
+        left: 50px;
+        text-align: center;
+        border-radius: 25px;
+    }
+    
+    .college_prep h2{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1000px){
+
+    .vantagens_container{
+        width: 42%;
+    }
+
+    .vantagens {
+        margin-bottom: 5px;
+        align-items: center;
+    }
+
+    .vantagens_container h1{
+        font-size: 28px;
+    }   
+
+    .vantagens_container svg{
+        margin-right: 10px;
+        color: brown;
+        font-size: 22px;
+    }
+
+    .vantagens p{
+        font-size: 13px;
+        color: #444444;
+    }
+
+    .formados_img img{
+        width: 350px;
+        margin-top: 80px;
+        margin-left: 80px;
+    }   
+
+    .college_prep{
+        width: 380px;
+        background-color: var(--vermelhoEscurob-background-color);
+        position: relative;
+        top: -65px;
+        left: 50px;
+        text-align: center;
+        border-radius: 25px;
+    }
+    
+    .college_prep h2{
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 800px){
+    .formados_img img{
+        width: 300px;
+        margin-top: 120px;
+        margin-left: 80px;
+    }   
+
+    .college_prep{
+        width: 330px;
+        background-color: var(--vermelhoEscurob-background-color);
+        position: relative;
+        top: -65px;
+        left: 50px;
+        text-align: center;
+        border-radius: 25px;
+    }
+    
+    .college_prep h2{
+        font-size: 32px;
+    }
+
+}
+
+@media (max-width: 760px){
+    .container{
+        flex-wrap: wrap;
+    }
+    .vantagens_container{
+        width: 100%;
+        
+    }
+
+    .vantagens_container h1{
+        margin-left: 5%;
+    }
+
+    .vantagens{
+        margin-left: 5%;
+    }
+
+
+    .vantagens_container h1{
+        font-size: 28px;
+    }   
+
+    .vantagens_container svg{
+        margin-right: 10px;
+        color: brown;
+        font-size: 22px;
+    }
+
+    .vantagens p{
+        font-size: 14px;
+    }
+
+    .formados_img{
+        margin: 0 auto;
+    }
+
+    .formados_img img{
+        width: 380px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }   
+
+    .college_prep{
+        width: 400px;
+        left: 0px;
+    }
+    
+    .college_prep h2{
+        font-size: 32px;
+    }
+  
+}
+
+@media (max-width: 600px){
+   
+}
+
+@media (max-width: 540px){
+  
+ 
 }

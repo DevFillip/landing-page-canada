@@ -27,7 +27,7 @@ function Comparacao(){
                         <CgEditBlackPoint /><p>Viva o intercâmbio</p>
                     </div>
                 </div>
-
+                
                 <span>X</span>
             
                 <div className={styles.card_comparacao}>
