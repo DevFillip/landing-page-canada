@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .navbar{
     background-color: transparent;
     padding: 1em;
@@ -5,6 +9,7 @@
     align-items: center;
     justify-content: space-between;
     box-shadow: 5px 5px 5px #00000048;
+
 }
 
 .imagem{
@@ -28,3 +33,63 @@
 .item:hover{
     color: #ba2c2b; 
 }
+
+.toggle{
+    font-size: 30px;
+}
+
+.toggle{
+    cursor: pointer;
+    display: none;
+}
+
+.menu{
+    transition: 0.5s;
+}
+
+.menu:hover{
+    transform: rotate(90deg);
+}
+
+.xzinho{
+    transition: 0.4s;
+    transform: scale(1);
+}
+
+.xzinho:hover{
+    transform: scale(1.2);
+
+}
+
+@media screen and (max-width: 768px){
+    .toggle {
+        display: block;
+    }
+
+    .list{
+        position: absolute;
+        width: 91.8%;
+        top: 69px;
+        left: 700px;
+        flex-direction: column;
+        background-color: #fff;
+        transform: translateX(100%);
+        opacity: 0;
+        transition: 0.4s;
+    }
+
+
+    .item{
+        margin-top: 15px;
+        width: 109.3%;
+        border-bottom: 1px solid #ccc;
+        text-align: center;
+        padding-bottom: 2.5px;
+    }
+}
+
+.active{
+    opacity: 100%;
+    transform:translateX(0);
+    left: 0;
+}   

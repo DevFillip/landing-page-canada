@@ -6,7 +6,7 @@ function FaqItem(){
   const [selected, setSelected] = useState(null)
   
   const toggle = i => {
-    if(selected == i){
+    if(selected === i){
       return setSelected(null)
     }
 
@@ -23,9 +23,9 @@ function FaqItem(){
             <div className={styles.item}>
                 <div className={styles.title} onClick={() => toggle(i)}>
                   <h2>{item.question}</h2>
-                  <span>{selected == i ? (<GoTriangleUp/>) : (<GoTriangleDown/>)}</span>
+                  <span>{selected === i ? (<GoTriangleUp/>) : (<GoTriangleDown/>)}</span>
                 </div>
-                <div className={selected == i ? `${styles.content} ${styles.show}` : `${styles.content}`}>
+                <div className={selected === i ? `${styles.content} ${styles.show}` : `${styles.content}`}>
                   <p>{item.answer}</p>
                 </div>
             </div>

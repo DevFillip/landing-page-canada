@@ -2,11 +2,10 @@
     background-color:#c81d1d;
     color: #fff;
     display: flex;
-    justify-content:space-between;
     align-items: center;
     padding: 1em;
     margin-top: 50px;
-    
+    justify-content: space-between;
 }
 
 .social{
@@ -25,7 +24,7 @@
 }
 
 .containerDireitos{
-    width: 25%;
+    width: 40%;
 }
 
 .social svg{
@@ -37,16 +36,7 @@
     color: var(--brancoPadraoC-color);
     font-weight: bold;
     font-size: 15px;
-}
-
-.navbar{
-    background-color: transparent;
-    padding: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 5px 5px 5px #00000048;
-}
+}   
 
 .imagem{
     max-width: 200px;
@@ -58,14 +48,46 @@
     align-items: center;
 }
 
-.item{
-    margin-right: 1em;
-    font-size: 19px;
-    cursor: pointer;
-    font-weight: 600; 
-    transition: 0.3s;
+
+@media (max-width: 1000px){
+    .footer{
+        flex-wrap: wrap;
+    }
+
+    .containerDireitos{
+        width: 100%;
+    }
+    .containerDireitos p {
+        text-align: center;
+    }
+
+    .social{
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .social li:nth-of-type(1){
+        margin-left: -25px;
+    }
+    
+
 }
 
-.item:hover{
-    color: #ffbb33; 
+@media (max-width: 800px){
+    
+   
+    
 }
+
+@media (max-width: 700px){
+ 
+}
+
+@media (max-width: 600px){
+   
+}
+
+@media (max-width: 540px){
+    
+}
+
