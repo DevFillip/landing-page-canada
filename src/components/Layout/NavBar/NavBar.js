@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import styles from './NavBar.module.css'
 import {AiOutlineMenu} from 'react-icons/ai'
 import {GrClose} from 'react-icons/gr'
-import {useEffect, useState} from 'react'
+import {useState} from 'react'
 
 function NavBar(){
     const [navAtiva, setNavAtiva] = useState(`${styles.list}`)
@@ -34,7 +34,6 @@ function NavBar(){
 }
 
 const scrollHome = () => {
-
     window.scrollTo({
         top: 120,
         behavior: "smooth"
